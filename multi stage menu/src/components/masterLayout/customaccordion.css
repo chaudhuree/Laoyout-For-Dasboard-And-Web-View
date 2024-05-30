@@ -1,0 +1,49 @@
+
+.custom-accordion-header {
+  background: #f7f7f7;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.custom-accordion-header:hover {
+  background: #e7e7e7;
+}
+
+.custom-accordion-body {
+  padding: 10px;
+  background: #fff;
+}
+
+.side-bar-item {
+  display: flex;
+  align-items: center;
+}
+
+.side-bar-item-icon {
+  margin-right: 10px;
+}
+
+.side-bar-item-caption {
+  font-size: 16px;
+}
+
+.side-bar-subitem {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.side-bar-subitem-active {
+  background-color: #e7e7e7;
+}
+
+.side-bar-subitem-caption {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+
